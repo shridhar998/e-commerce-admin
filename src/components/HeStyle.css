@@ -1,0 +1,55 @@
+.container-c{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.container-d{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.input-create{
+    padding-top: 1em;
+}
+.input-delete{
+    padding-top: 1em;
+}
+.uparsegap{
+    margin-top: 1rem;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+}
+.btn{
+    display: flex;
+    background-color: wheat;
+    border-radius: 25px;
+    width: 100px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5px;
+    padding-top: 20px;
+    border-color: black;
+    border-width: 1em;
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
